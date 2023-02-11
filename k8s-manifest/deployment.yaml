@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: react-app
-          image: react-app:v1
+          image: asauer/react:latest
           ports:
             - containerPort: 3000
           envFrom:
