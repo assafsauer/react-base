@@ -18,7 +18,7 @@ public class ExampleController {
 }
 ``` 
 
-And here's an example of how to define the API in React using the fetch API:
+optiopn 1: you can define the API in React using the fetch API:
 ```diff
 import React, { useState, useEffect } from "react";
 
@@ -43,7 +43,7 @@ export default ExampleComponent;
 ```
 
 
-option 2 with Axios: 
+option 2:  define the API with Axios: 
 ```diff
 import React, { useState, useEffect } from "react";
 import axios from "axios";
